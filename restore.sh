@@ -15,7 +15,7 @@ sudo apt install libfuse2
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
 # install apt packages
-sudo apt install default-jdk
+sudo apt install default-jdk google-android-platform-tools-installer
 
 # install deb packages
 
