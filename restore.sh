@@ -14,6 +14,11 @@ sudo apt update && sudo apt upgrade
 sudo apt install libfuse2
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+# install apt packages
+sudo apt install default-jdk
+
+# install deb packages
+
 # map cloud drives
 sudo apt install rclone
 rclone config
