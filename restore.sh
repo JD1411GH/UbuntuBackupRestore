@@ -5,6 +5,9 @@ cp ~/.bashrc ~/.bashrc.orig
 
 # TODO flutter installation
 echo "export PATH=\$PATH:/home/jayanta/Tools/flutter" >> ~/.bashrc
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 22
 
 # set timezone
 sudo timedatectl set-timezone Asia/Kolkata
